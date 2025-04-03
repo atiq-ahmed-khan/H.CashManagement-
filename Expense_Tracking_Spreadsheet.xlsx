@@ -1,0 +1,35 @@
+{
+  "Sheet1": {
+    "A1": "Date",
+    "B1": "Expense Category",
+    "C1": "Amount",
+    "D1": "Total Food Expenses",
+    "E1": "Total Transportation Expenses",
+    "F1": "Total Utilities Expenses",
+    "G1": "Total Entertainment Expenses",
+    "H1": "Total Other Expenses",
+    "I1": "Total Expenses",
+    "J1": "Remaining Salary",
+    "K1": "Savings",
+    "A2": "1/1/2023",
+    "B2": "Food",
+    "C2": "=SUMIF(B:B, \"Food\", C:C)",
+    "D2": "=SUMIF(B:B, \"Food\", C:C)",
+    "E2": "=SUMIF(B:B, \"Transportation\", C:C)",
+    "F2": "=SUMIF(B:B, \"Utilities\", C:C)",
+    "G2": "=SUMIF(B:B, \"Entertainment\", C:C)",
+    "H2": "=SUMIF(B:B, \"Others\", C:C)",
+    "I2": "=SUM(C:C)",
+    "J2": "=Total_Salary - I2",
+    "K2": "=Total_Salary - I2"
+  },
+  "Summary": {
+    "A1": "Monthly Summary",
+    "A2": "Total Expenses",
+    "B2": "=SUM(I:I)",
+    "A3": "Remaining Salary",
+    "B3": "=Total_Salary - B2",
+    "A4": "Savings",
+    "B4": "=Total_Salary - B2"
+  }
+}
